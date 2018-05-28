@@ -38,7 +38,7 @@ export class AppComponent {
     this._store.select('posts')
         .subscribe((posts) => {
           this.posts = posts;
-          console.log(posts);
+          console.log(this.posts);
         });
 
   }

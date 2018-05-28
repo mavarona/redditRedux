@@ -1,0 +1,15 @@
+mat-card {
+  max-width: 600px;
+}
+mat-card img{
+  background-size: cover;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+mat-card-header {
+  background-color: blueviolet;
+  color: #fff;
+}
+

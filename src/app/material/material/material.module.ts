@@ -4,15 +4,10 @@ import { CommonModule } from '@angular/common';
 // Material
 import {
   MatButtonModule,
-  MatDialogModule,
+  MatCardModule,
   MatFormFieldModule,
   MatInputModule,
-  MatPaginatorModule,
-  MatProgressSpinnerModule,
   MatSelectModule,
-  MatSortModule,
-  MatTableModule,
-  MatTabsModule,
   MatToolbarModule
 } from '@angular/material';
 
@@ -20,28 +15,18 @@ import {
   imports: [
     CommonModule,
     MatButtonModule,
-    MatDialogModule,
+    MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    MatPaginatorModule,
-    MatProgressSpinnerModule,
     MatSelectModule,
-    MatSortModule,
-    MatTableModule,
-    MatTabsModule,
     MatToolbarModule
   ],
   exports: [
     MatButtonModule,
-    MatDialogModule,
+    MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    MatPaginatorModule,
-    MatProgressSpinnerModule,
     MatSelectModule,
-    MatSortModule,
-    MatTableModule,
-    MatTabsModule,
     MatToolbarModule
   ],
   declarations: []
